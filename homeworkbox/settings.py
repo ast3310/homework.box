@@ -40,7 +40,9 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'djoser',
-    'django_filters'
+    'django_filters',
+
+    'students.apps.StudentsConfig'
 ]
 
 MIDDLEWARE = [
